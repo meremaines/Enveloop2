@@ -28,6 +28,11 @@ p {
 	line-height: 16px;
 	font-weight: 300;
 }
+blockquote {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 300;
+}
 
 /* GRID */
  .container {
@@ -77,3 +82,66 @@ p {
      width: 1170px;
    }
  }
+
+ /* HEADER */
+ header {
+ 	color: #FFFFFF;
+ 	background-image: url('images/girl-backpack.jpg');
+ 	background-repeat: no-repeat;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+ 	width: 100%;
+ }
+header nav {
+	padding: 1em 0;
+	background-color: #4188B2;
+	opacity: 85%;
+}
+header nav ul {
+	display: inline;
+	text-align: right;
+	float: right;
+	margin: 0;
+}
+header nav ul > li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+header nav ul > li.btn-outline {
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 2px solid #7FA7BF;
+	border-radius: 8px;
+	height: 40px;
+	width: 70px;
+}
+header nav ul > li.btn {
+	background: #FF696D;
+	box-shadow: 0px 2px 0px 0px #9A3C3F;
+	border-radius: 8px;
+	height: 40px;
+	width: 70px;
+}
+header nav ul > li > a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+}
+header nav ul > li.btn-outline:hover > a {
+	background: #7FA7BF;
+	color: #4188B2;
+}
+header nav ul > li.btn-outline:hover {
+	background: #7FA7BF;
+}
+header nav ul > li.btn:hover > a {
+	background: #9A3C3F;
+	color: #FF696D
+}
+header nav ul > li.btn:hover {
+	background: #9A3C3F;
+}
