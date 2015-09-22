@@ -86,18 +86,11 @@ blockquote {
  /* HEADER */
  header {
  	color: #FFFFFF;
- 	background-image: url('images/girl-backpack.jpg');
- 	background-repeat: no-repeat;
- 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
- 	width: 100%;
+ 	background-color: #4188B2;
  }
 header nav {
 	padding: 1em 0;
-	background-color: #4188B2;
-	opacity: 85%;
+	background-color: rgba(65, 136, 178, 0.8);
 }
 header nav ul {
 	display: inline;
@@ -114,16 +107,14 @@ header nav ul > li.btn-outline {
 	color: #FFFFFF;
 	text-decoration: none;
 	border: 2px solid #7FA7BF;
-	border-radius: 8px;
-	height: 40px;
-	width: 70px;
+	border-radius: 4px;
+	padding: 10px 15px;
 }
 header nav ul > li.btn {
 	background: #FF696D;
-	box-shadow: 0px 2px 0px 0px #9A3C3F;
-	border-radius: 8px;
-	height: 40px;
-	width: 70px;
+	border: 2px solid #FF696D;
+	border-radius: 4px;
+	padding: 10px 15px;
 }
 header nav ul > li > a {
 	color: #FFFFFF;
@@ -133,15 +124,45 @@ header nav ul > li > a {
 }
 header nav ul > li.btn-outline:hover > a {
 	background: #7FA7BF;
-	color: #4188B2;
 }
 header nav ul > li.btn-outline:hover {
 	background: #7FA7BF;
 }
 header nav ul > li.btn:hover > a {
 	background: #9A3C3F;
-	color: #FF696D
 }
 header nav ul > li.btn:hover {
 	background: #9A3C3F;
+	border: 2px solid #9A3C3F;
 }
+ header .hero {
+   text-align: center;
+   display:block;
+   position: relative;
+ }
+ header .hero h1 {
+   font-size:48px;
+   font-weight: normal;
+   margin:95px 0 0;
+ }
+ header .hero p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+ header .hero img {
+   display: block;
+   margin:3em auto 0;
+ }
+
+ /* BUTTONS */
+ .btn {
+   border-radius: 4px;
+   border: 2px solid #FF696D;
+   color:#FFFFFF;
+   font-weight: 300;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #FF696D;
+ }
