@@ -149,6 +149,9 @@ header nav ul > li.btn:hover {
 	border: 2px solid #9A3C3F;
 }
  header .hero {
+   background: #4188B2 url("../images/city-people-woman-street.jpg") top center no-repeat;
+   background-size:cover;
+   padding:4em 0;
    text-align: center;
    display:block;
    position: relative;
@@ -164,10 +167,6 @@ header nav ul > li.btn:hover {
    font-weight: 100;
    margin:10px 0 40px;
  }
- header .hero img {
-   display: block;
-   margin:3em auto 0;
- }
 
  /* BUTTONS */
  .btn {
@@ -178,4 +177,25 @@ header nav ul > li.btn:hover {
    text-decoration: none;
    padding:10px 30px;
    background: #FF696D;
+ }
+
+ /* FEATURES */
+ .features {
+ 	text-align: center;
+ 	display: block;
+ 	position: relative;
+ }
+ .features ul {
+ 	margin: 0 auto;
+ 	padding: 4em 0;
+ }
+ .features ul li {
+ 	list-style-type: none;
+ 	display: inline-block;
+ }
+ .features i {
+ 	color: #FF696D;
+ 	font-size: 48px;
+ 	margin: 0;
+ 	vertical-align: middle;
  }
