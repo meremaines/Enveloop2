@@ -189,6 +189,15 @@ header .hero {
    padding:10px 30px;
    background: #FF696D;
  }
+ .btn a {
+ 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+ 	color: #FFFFFF;
+ }
+ .btn a:hover {
+ 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+ 	color: #FF696D;
+	background: #9A3C3F;
+ }
  .btn:hover {
    border-radius: 4px;
    border: 2px solid #9A3C3F;
@@ -200,11 +209,21 @@ header .hero {
  } 
  .btn-outline {
    border-radius: 4px;
-   border: 2px solid #4188B2;
+   border: 2px solid #2E617F;
+   font-family: 'Roboto', Helvetica, Arial, sans-serif;
    color: #2E617F;
    font-weight: 300;
    text-decoration: none;
    padding:10px 15px;
+ }
+ .btn-outline a {
+ 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+ 	color: #2E617F;
+ }
+  .btn-outline a:hover {
+ 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+ 	color: #7FA7BF;
+ 	background: #2E617F;
  }
  .btn-outline:hover {
    border-radius: 4px;
@@ -294,13 +313,7 @@ header .hero {
  	font-size: 20px;
  	vertical-align: middle;
  }
- .box > .btn-outline {
-   color: #2E617F;
-   text-decoration: none;
-   border: 2px solid #2E617F;
-   border-radius: 4px;
-   padding: 10px 15px;
- }
+
  .box-middle {
    min-height: 500px;
    margin-top:0px;
