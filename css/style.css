@@ -117,11 +117,24 @@ header nav ul > li {
 	margin: 0 15px;
 }
 header nav ul > li.btn-outline {
-	color: #FFFFFF;
+	color: #2E617F;
 	text-decoration: none;
-	border: 2px solid #7FA7BF;
+	border: 2px solid #2E617F;
 	border-radius: 4px;
 	padding: 10px 15px;
+}
+header nav ul > li.btn-outline > a {
+	color: #2E617F;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+}	
+header nav ul > li.btn-outline:hover {
+	background: #2E617F;
+}
+header nav ul > li.btn-outline:hover > a {
+	color: #7FA7BF;
+	background: #2E617F;
 }
 header nav ul > li.btn {
 	background: #FF696D;
@@ -129,26 +142,22 @@ header nav ul > li.btn {
 	border-radius: 4px;
 	padding: 10px 15px;
 }
-header nav ul > li > a {
+header nav ul > li.btn > a {
 	color: #FFFFFF;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 300;
 }
-header nav ul > li.btn-outline:hover > a {
-	background: #7FA7BF;
-}
-header nav ul > li.btn-outline:hover {
-	background: #7FA7BF;
-}
-header nav ul > li.btn:hover > a {
-	background: #9A3C3F;
-}
 header nav ul > li.btn:hover {
 	background: #9A3C3F;
 	border: 2px solid #9A3C3F;
+	padding: 10px 15px;
 }
- header .hero {
+header nav ul > li.btn:hover > a {
+	color: #FF696D;
+	background: #9A3C3F;
+}
+header .hero {
    background: #4188B2 url("../images/city-people-woman-street.jpg") top center no-repeat;
    background-size:cover;
    padding:4em 0;
@@ -160,12 +169,14 @@ header nav ul > li.btn:hover {
    font-size:48px;
    font-weight: normal;
    margin:95px 0 0;
+   text-shadow:0 2px #666666;
  }
  header .hero p {
    font-size: 22px;
    line-height: 26px;
    font-weight: 100;
    margin:10px 0 40px;
+   text-shadow:0 2px #666666;
  }
 
  /* BUTTONS */
@@ -178,6 +189,32 @@ header nav ul > li.btn:hover {
    padding:10px 30px;
    background: #FF696D;
  }
+ .btn:hover {
+   border-radius: 4px;
+   border: 2px solid #9A3C3F;
+   color:#FF696D;
+   font-weight: 300;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #9A3C3F;
+ } 
+ .btn-outline {
+   border-radius: 4px;
+   border: 2px solid #4188B2;
+   color: #2E617F;
+   font-weight: 300;
+   text-decoration: none;
+   padding:10px 15px;
+ }
+ .btn-outline:hover {
+   border-radius: 4px;
+   border: 2px solid #2E617F;
+   color: #7FA7BF;
+   background: #2E617F;
+   font-weight: 300;
+   text-decoration: none;
+   padding:10px 15px;
+ } 
 
  /* FEATURES */
  .features {
@@ -185,6 +222,9 @@ header nav ul > li.btn:hover {
  	display: block;
  	position: relative;
  	padding: 4em 0;
+ }
+ .features h2 {
+ 	color: #4188B2;
  }
  .features ul {
  	margin: 0 auto;
@@ -328,16 +368,52 @@ header nav ul > li.btn:hover {
    color:#666666;
    text-align: center;
    position: relative;
-   padding:30px;
+   padding:10px;
    width:auto;
    margin:0;
  }
  .testimonials p.name {
-   float: left;
-   display: inline-block;
+   display: inline;
    text-align: center;
  }
+ .testimonials img {
+ 	padding: 1em 0;
+ }
 
+/* COMMITMENT */
+.commitment {
+	padding: 4em 0;
+	text-align: center;
+	background: url("../images/man-person-hands-coffee.jpg") top center no-repeat;
+    background-size:cover;
+    display: block;
+    position: relative;
+}
+.commitment h2 {
+	color: #4188B2;
+}
+.commitment ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.commitment ul li > a {
+	text-decoration: none;
+}
+/*.commitment ul li.btn-outline > a {
+	color: #2E617F;
+}
+.commitment > ul li.btn-outline {
+	color: #2E617F;
+	border: 2px solid #4188B2;
+	border-radius: 4px;
+	padding: 10px 15px;
+}
+.commitment > ul li.btn {
+	background: #FF696D;
+	border: 2px solid #FF696D;
+	border-radius: 4px;
+	padding: 10px 15px;
+}	
 
 
 
