@@ -97,13 +97,13 @@ blockquote {
  }
 
  /* HEADER */
- header {
+header {
  	color: #FFFFFF;
  	background-color: #4188B2;
  }
 header nav {
 	padding: 1em 0;
-	background-color: rgba(65, 136, 178, 0.8);
+	background-color: #4188B2;
 }
 header nav ul {
 	display: inline;
@@ -461,6 +461,3 @@ header .hero {
      padding: 2em 0 2em 1.5em;
    }
  }
-
-
-
