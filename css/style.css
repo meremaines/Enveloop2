@@ -313,7 +313,30 @@ header nav ul > li.btn:hover {
    right:20px;
  }
 
-
+/* TESTIMONIALS */
+.testimonials {
+   padding:4em 0;
+   text-align: center;
+ }
+ .testimonials h2 {
+   color:#4188B2;
+ }
+ .testimonials ul li {
+   list-style-type: none;
+ }
+ .testimonials blockquote {
+   color:#666666;
+   text-align: center;
+   position: relative;
+   padding:30px;
+   width:auto;
+   margin:0;
+ }
+ .testimonials p.name {
+   float: left;
+   display: inline-block;
+   text-align: center;
+ }
 
 
 
