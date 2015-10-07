@@ -474,3 +474,47 @@ header .hero {
      padding: 2em 0 2em 1.5em;
    }
  }
+ /* DASHBOARD */
+ .top-nav {
+  padding: 1em 0;
+  background-color: #4188B2;  
+ }
+ .top-nav .settings {
+  float: left;
+  margin: 0 15px;
+  display: inline;
+ }
+ .top-nav .settings img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;  
+ }
+ .top-nav .site-logo {
+  display: block;
+  margin-left: 33.33333%;
+  margin-right: 33.33333%;
+ }
+ .top-nav .right-header-bar {
+  display: block;
+  float: right;
+ }
+ .top-nav ul {
+  display: inline;
+  text-align: right;
+  float: right;
+  margin: 0;
+ }
+ .top-nav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+ }
+ .top-nav ul > li > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+ }
+ .top-nav ul > li.search > a > i {
+  height: 20px;
+ }
