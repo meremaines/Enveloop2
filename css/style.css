@@ -557,6 +557,9 @@ header .hero {
   font-weight: 300;
   color: #FFFFFF;
  }
+ .sub-nav li.active > a {
+  background: #2E617F;
+ }
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
