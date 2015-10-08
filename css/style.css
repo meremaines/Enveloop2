@@ -517,7 +517,45 @@ header .hero {
   font-weight: 300;
  }
  .top-nav ul > li.search > a > i {
-  height: 20px;
+  height: 24px;
+ }
+ .sub-nav {
+  padding: 1em 0;
+  background-color: #7FA7BF; 
+ }
+ .sub-nav .sub-settings > ul {
+  display: inline;
+  text-align: left;
+  float: left;
+  margin: 0 15px;
+ }
+ .sub-nav .sub-new > ul {
+  display: inline;
+  text-align: right;
+  float: right;
+  margin: 0 15px;
+ }
+ .sub-nav .sub-search > p {
+  width: 25%;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  background: #FFFFFF;
+  display: inline;
+  float: right;
+  text-align: right;
+  padding: 0 15px;
+ }
+ .sub-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+ }
+ .sub-nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
  }
  /* CONTENT */
  .content {
