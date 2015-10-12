@@ -132,7 +132,7 @@ header nav ul > li.btn-outline > a {
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 300;
-}	
+}
 header nav ul > li.btn-outline:hover {
 	background: #2E617F;
 }
@@ -222,7 +222,7 @@ header .hero {
    text-decoration: none;
    padding:10px 30px;
    background: #9A3C3F;
- } 
+ }
  .btn-outline {
    border-radius: 4px;
    border: 2px solid #2E617F;
@@ -249,7 +249,7 @@ header .hero {
    font-weight: 300;
    text-decoration: none;
    padding:10px 15px;
- } 
+ }
 
  /* FEATURES */
  .features {
@@ -335,8 +335,8 @@ header .hero {
    margin-top:0px;
    background: #FFFFFF;
    border: 2px solid #2E617F;
-   border-radius: 8px; 
-   margin: 0 -40px;  
+   border-radius: 8px;
+   margin: 0 -40px;
  }
  .box-middle h4 {
  	color: #666666;
@@ -493,7 +493,7 @@ header .hero {
  /* DASHBOARD */
  .top-nav {
   padding: 1em 0;
-  background-color: #4188B2;  
+  background-color: #4188B2;
  }
  .top-nav .settings {
   float: left;
@@ -505,7 +505,7 @@ header .hero {
   width: 35px;
   border: 1px solid #FFFFFF;
   border-radius: 50%;
-  display: inline-block;  
+  display: inline-block;
  }
  .top-nav .site-logo {
   display: block;
@@ -537,7 +537,7 @@ header .hero {
  }
  .sub-nav {
   padding: 1em 0;
-  background-color: #7FA7BF; 
+  background-color: #7FA7BF;
  }
  .sub-nav .sub-settings > ul {
   display: inline;
