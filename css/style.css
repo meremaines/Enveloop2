@@ -57,6 +57,9 @@ blockquote {
    min-height: 1px;
    margin:0 2% 20px;
  }
+ .full-width {
+  width: 100%;
+ }
 
 @media (min-width: 768px) {
    .container {
@@ -103,7 +106,8 @@ header {
  }
 header nav {
 	padding: 1em 0;
-	background-color: #4188B2;
+  position: absolute;
+  z-index: 1;
 }
 header nav ul {
 	display: inline;
@@ -157,10 +161,18 @@ header nav ul > li.btn:hover > a {
 	color: #FF696D;
 	background: #9A3C3F;
 }
+nav.full-width {
+  background-color: rgba(25, 53, 70, 0.5);
+}
+nav.top-adjust {
+  margin-top: 20px;
+}
 header .hero {
-   background: #4188B2 url("../images/city-people-woman-street.jpg") top center no-repeat;
-   background-size:cover;
+   background: #4188B2 url("../images/city-people-woman-street-smaller.jpg") no-repeat;
+   background-position: -100px -250px;
+   background-size:110%;
    padding:4em 0;
+   height: 70 vh;
    text-align: center;
    display:block;
    position: relative;
@@ -168,7 +180,7 @@ header .hero {
  header .hero h1 {
    font-size:48px;
    font-weight: normal;
-   margin:95px 0 0;
+   margin:200px 0 0;
    text-shadow:0 2px #666666;
  }
  header .hero p {
@@ -177,6 +189,10 @@ header .hero {
    font-weight: 100;
    margin:10px 0 40px;
    text-shadow:0 2px #666666;
+ }
+ .arrow-icon {
+  display: block;
+  margin: 40px auto 0 auto;
  }
 
  /* BUTTONS */
