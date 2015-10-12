@@ -421,12 +421,12 @@ header .hero {
   background: url("../images/man-person-hands-coffee-smaller.jpg") no-repeat;
   background-size: cover;
   background-position: 0 -355px;
-  height: 65vh;
+  height: 30vh;
   display: block;
   position: relative;
 }
 .ready {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .commitment h2 {
 	color: #4188B2;
