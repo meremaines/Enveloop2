@@ -28,12 +28,12 @@
 		<div class="right-header-bar one-third">
 			<ul>
 				<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-				<li class="btn-outline"><a href="#">VIEW</a></li>
+				<li class="btn-outline viewbutton"><a href="#">VIEW</a></li>
 				<li class="btn"><a href="#">NEW</a></li>
 			</ul>
 		</div>
 	</nav>
-	<nav id="sub-nav" class="sub-nav">
+	<nav id="sub-nav-set" class="sub-nav">
 		<div class="sub-settings">
 			<ul>
 				<li><a href="#">Profile</a></li>
@@ -42,9 +42,13 @@
 				<li><a href="#">Logout</a></li>
 			</ul>
 		</div>
+	</nav>
+	<!-- <nav id="sub-nav-search" class="sub-nav">
 		<div class="sub-search">
 			<p>Search</p>
 		</div>
+	</nav>
+	<nav id="sub-nav-view" class="sub-nav">
 		<div class="sub-view">
 			<ul>
 				<li class="active"><a href="#">All Items</a></li>
@@ -57,17 +61,19 @@
 				<li><a href="#">Labels</a></li>
 			</ul>
 		</div>
-        <div class="sub-new">
-        	<ul>
-        		<li><a href="#">Folder</a></li>
-        		<li><a href="#">File Upload</a></li>
-        		<li><a href="#">Folder Upload</a></li>
-        		<li><a href="#">Note</a></li>
-        		<li><a href="#">Link</a></li>
-        		<li><a href="#">Label</a></li>
-        	</ul>
-        </div>
 	</nav>
+	<nav id="sub-nav-new" class="sub-nav">
+    <div class="sub-new">
+    	<ul>
+    		<li><a href="#">Folder</a></li>
+    		<li><a href="#">File Upload</a></li>
+    		<li><a href="#">Folder Upload</a></li>
+    		<li><a href="#">Note</a></li>
+    		<li><a href="#">Link</a></li>
+    		<li><a href="#">Label</a></li>
+    	</ul>
+    </div>
+	</nav> -->
 	<main role="main">
 	<!--CONTENT-->
 	<section class="content">
@@ -84,8 +90,8 @@
 						<li class="list"><a href="#"><i class="fa fa-list-ul"></i></a></li>
 					</ul>
 				</div>
-			</div>	
-		</div>	
+			</div>
+		</div>
 		<div class="container">
 			<div class="content-item">
 				<div class="item-box">
@@ -166,5 +172,12 @@
 		</div>
 	</section>
 	</main>
+	<!-- this is how we toggle the sub-nav elements -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$(".viewbutton").on("click", function(){
+			$("#sub-nav-set").toggle();
+		});
+	</script>
 </body>
-</html>	
+</html>
