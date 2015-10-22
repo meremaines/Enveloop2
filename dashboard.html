@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/dropit.css">
 
 </head>
 <body class="dashboard">
@@ -82,7 +83,18 @@
 				<h2>All Items</h2>
 				<div class="filter">
 					<p>Sort by:</p>
-					<a href="#"><i class="fa fa-caret-down"></i></a>
+					<ul class="sort">
+            			<li>
+              			<a href="#"><i class="fa fa-caret-down"></i></a>
+              				<ul>
+                  				<li><a href="#">File Name</a></li>
+                  				<li><a href="#">Date Modified</a></li>
+                  				<li><a href="#">Date Created</a></li>
+                  				<li><a href="#">Creator Name</a></li>
+                  				<li><a href="#">File Size</a></li>
+              				</ul>
+            			</li>
+          			</ul>
 				</div>
 				<div class="content-view">
 					<ul>
@@ -173,6 +185,11 @@
 	</section>
 	</main>
 	<!-- this is how we toggle the sub-nav elements -->
+	<script src"js/jquery-2.1.4.min.js"></script>
+	<script src"js/dropit.js"></script>
+	<script type="text/javascript">
+		$(".sort").dropit();
+	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script>
 		$(".setbutton").on("click", function(){
