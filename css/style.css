@@ -424,6 +424,7 @@ header .hero {
 	text-align: center;
   background: url("../images/man-person-hands-coffee-smaller.jpg") no-repeat;
   background-size: cover;
+  background-position: 0 -175px;
   height: 35vh;
   display: block;
   position: relative;
@@ -438,7 +439,7 @@ header .hero {
   height:100%;
   display: block;
   z-index:0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(46, 97, 127 ,0.7);
 }
 
 .ready {
@@ -459,6 +460,12 @@ margin-right: 10px;
 }
 .commitment ul li:nth-child(2) {
   margin-left: 10px;
+}
+.commitment .btn-outline {
+  background: #7FA7BF;
+}
+.commitment .btn-outline:hover {
+  background: #2E617F;
 }
 /*.commitment ul li.btn-outline > a {
 	color: #2E617F;
