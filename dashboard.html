@@ -43,7 +43,7 @@
 			</ul>
 		</div>
 	</nav>
-	<!-- <nav id="sub-nav-search" class="sub-nav">
+	<nav id="sub-nav-search" class="sub-nav">
 		<div class="sub-search">
 			<p>Search</p>
 		</div>
@@ -73,7 +73,7 @@
     		<li><a href="#">Label</a></li>
     	</ul>
     </div>
-	</nav> -->
+	</nav>
 	<main role="main">
 	<!--CONTENT-->
 	<section class="content">
@@ -175,8 +175,17 @@
 	<!-- this is how we toggle the sub-nav elements -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script>
-		$(".viewbutton").on("click", function(){
+		$(".setbutton").on("click", function(){
 			$("#sub-nav-set").toggle();
+		});
+		$(".searchbutton").on("click", function(){
+			$("#sub-nav-search").toggle();
+		});
+		$(".viewbutton").on("click", function(){
+			$("#sub-nav-view").toggle();
+		});
+		$(".newbutton").on("click", function(){
+			$("#sub-nav-new").toggle();
 		});
 	</script>
 </body>
