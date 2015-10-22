@@ -781,6 +781,7 @@ margin-right: 10px;
    font-size: 14px;
    line-height: 16px;
    margin:0;
+   float: left;
  }
  .item-box h2 a {
    color: #4188B2;
@@ -801,10 +802,12 @@ margin-right: 10px;
   display: inline;
   position: relative;
   float: right;
+  margin: 5px 0;
  }
  .item-box p {
-   margin:10px 0 0;
+   margin: 5px 0 0;
    display: block;
+   float: left;
  }
  .item-box img.homepage {
    height: 60%;
