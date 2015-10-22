@@ -533,8 +533,8 @@ margin-right: 10px;
  }
  .top-nav .settings {
   float: left;
-  margin: 0 30px;
-  /*display: inline;*/
+  /*margin: 0 30px;
+  display: inline;*/
  }
  .top-nav .settings img {
   height: 35px;
@@ -543,14 +543,16 @@ margin-right: 10px;
   border-radius: 50%;
   display: inline-block;
  }
- .top-nav .site-logo {
+ .top-nav .logo {
   display: block;
-  margin-left: 33.33333%;
-  margin-right: 33.33333%;
+  text-align: center;
+  /*margin-left: 33.33333%;
+  margin-right: 33.33333%;*/
  }
  .top-nav .right-header-bar {
   display: block;
   float: right;
+  margin-top: 12px;
  }
  .top-nav ul {
   display: inline;
@@ -574,14 +576,29 @@ margin-right: 10px;
  }
  .sub-nav {
   padding: 1em 0;
+  height: 45px;
+  float: left;
+  width: 100%;
   background-color: #7FA7BF;
 	display: none;
+ }
+  .sub-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 15px;
+  /*margin: 0 15px;*/
  }
  .sub-nav .sub-settings > ul {
   display: inline;
   text-align: left;
   float: left;
   margin: 0 15px;
+ }
+ .sub-nav .sub-view > ul {
+  display: inline;
+  text-align: right;
+  float: right;
+  /*margin-right: 1%;*/
  }
  .sub-nav .sub-new > ul {
   display: inline;
@@ -599,11 +616,6 @@ margin-right: 10px;
   text-align: right;
   padding: 0 15px;
  }
- .sub-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0 15px;
- }
  .sub-nav ul li a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -611,9 +623,9 @@ margin-right: 10px;
   font-weight: 300;
   color: #FFFFFF;
  }
- .sub-nav li.active > a {
+ /*.sub-nav li.active > a {
   background: #2E617F;
- }
+ }*/
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
