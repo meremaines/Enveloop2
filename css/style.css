@@ -806,10 +806,9 @@ margin-right: 10px;
    margin:10px 0 0;
    display: block;
  }
- .item-box .homepage {
-   width: auto;
-   height: 50%;
-   bottom: 0;
+ .item-box img.homepage {
+   height: 60%;
+   margin: 110px 0 0 0;
  }
  .item-box li {
    margin:10px 0 0;
