@@ -207,7 +207,7 @@ header .hero {
    color:#FFFFFF;
    font-weight: 300;
    text-decoration: none;
-   padding:10px 30px;
+   padding:10px 15px;
    background: #FF696D;
  }
  a.btn {
@@ -226,7 +226,7 @@ header .hero {
    color:#FF696D;
    font-weight: 300;
    text-decoration: none;
-   padding:10px 30px;
+   padding:10px 15px;
    background: #9A3C3F;
  }
  .btn-outline {
@@ -528,10 +528,13 @@ margin-right: 10px;
   padding: 1em 0;
   background-color: #4188B2;
  }
+ .top-nav .one-third {
+  margin: 0 1% 20px;
+ }
  .top-nav .settings {
   float: left;
-  margin: 0 15px;
-  display: inline;
+  margin: 0 30px;
+  /*display: inline;*/
  }
  .top-nav .settings img {
   height: 35px;
@@ -565,13 +568,14 @@ margin-right: 10px;
   font-size: 14px;
   font-weight: 300;
  }
- .top-nav ul > li.search > a > i {
+ .searchbutton {
+  color: #FFFFFF;
   height: 24px;
  }
  .sub-nav {
   padding: 1em 0;
   background-color: #7FA7BF;
-	/*display: none;*/
+	display: none;
  }
  .sub-nav .sub-settings > ul {
   display: inline;
@@ -616,9 +620,10 @@ margin-right: 10px;
    float:right;
    width:98%;
    position: relative;
+   background: #FFFFFF;
  }
  .content .header {
-   margin:0 1% 20px;
+   margin:0 0 20px;
  }
  .content .header h2 {
    font-family: "Merriweather", serif;
