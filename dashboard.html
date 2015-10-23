@@ -185,23 +185,38 @@
 	</section>
 	</main>
 	<!-- this is how we toggle the sub-nav elements -->
-	<script src"js/jquery-2.1.4.min.js"></script>
-	<script src"js/dropit.js"></script>
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/dropit.js"></script>
+
+
 	<script type="text/javascript">
 		$(".sort").dropit();
 	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script>
 		$(".setbutton").on("click", function(){
+			$("#sub-nav-search").hide();
+			$("#sub-nav-view").hide();
+			$("#sub-nav-new").hide();
 			$("#sub-nav-set").toggle();
 		});
 		$(".searchbutton").on("click", function(){
+			$("#sub-nav-view").hide();
+			$("#sub-nav-new").hide();
+			$("#sub-nav-set").hide();
 			$("#sub-nav-search").toggle();
 		});
 		$(".viewbutton").on("click", function(){
+			$("#sub-nav-search").hide();
+			$("#sub-nav-new").hide();
+			$("#sub-nav-set").hide();
 			$("#sub-nav-view").toggle();
 		});
 		$(".newbutton").on("click", function(){
+			$("#sub-nav-search").hide();
+			$("#sub-nav-view").hide();
+			$("#sub-nav-set").hide();
 			$("#sub-nav-new").toggle();
 		});
 	</script>
