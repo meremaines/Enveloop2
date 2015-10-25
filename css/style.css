@@ -663,7 +663,7 @@ margin-right: 10px;
  .content .header > a {
   float: right;
  }
-.filter {
+ .filter {
   display: block;
   float: left;
   border: 1px solid #2E617F;
@@ -676,12 +676,17 @@ margin-right: 10px;
   float: left;
   display: inline;
  }
- .filter a {
+ .filter a i.fa-caret-down {
   float: right;
   display: inline;
-  padding: 10px 0 0 10px;
+  padding: 0 0 0 10px;
   color: #2E617F;
  }
+  /*.filter-opt li a {
+  float: left;
+  padding: 10px 0 0 10px;
+  color: #2E617F;
+ }*/
  .content-view ul {
   display: inline;
   text-align: right;
