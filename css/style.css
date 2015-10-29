@@ -320,6 +320,9 @@ header .hero {
 	 	.btn, .btn-outline {
 			padding: 10px 10px;
 		}
+    .btn:hover, .btn-outline:hover {
+      padding: 10px 10px;
+    }
  }
 
  /* FEATURES */
