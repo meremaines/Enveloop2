@@ -829,6 +829,12 @@ margin-right: 10px;
    overflow: hidden;
    padding:20px;
  }
+ .content-hover-bar {
+  /*display: none;*/
+  position: absolute;
+  background: rgba(127, 167, 191, 0.5);
+  z-index: 1;
+ }
 /* Larger Mobile Devices */
  @media (min-width:460px) {
    .content {
