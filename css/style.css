@@ -66,6 +66,16 @@ blockquote {
   width: 100%;
  }
 
+ .left-header-block, .right-header-block {
+	 width: 40%;
+	 float: left;
+ }
+
+ .right-header-block {
+	 width: 55%;
+	 float: right;
+ }
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -119,11 +129,12 @@ header nav ul {
 	text-align: right;
 	float: right;
 	margin-top: 15px;
+	padding-bottom: 10px;
 }
 header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 0 15px;
+	margin: 0 0 0 5px;
 }
 header nav ul > li.btn-outline {
 	color: #2E617F;
@@ -177,7 +188,6 @@ header .hero {
    background-position: -100px -250px;
    background-size:110%;
    padding:0 0 4em 0;
-   height: 70 vh;
    text-align: left;
    display:block;
    position: relative;
@@ -199,6 +209,52 @@ header .hero {
   display: block;
   margin: 40px auto 0 auto;
  }
+
+/*this is the main area where I am using media queries to control how the nav and hero are reacting for mobile devices*/
+
+ @media (max-width: 500px) {
+	 header .hero {
+			background: #4188B2 url("../images/city-people-woman-street-smaller.jpg") no-repeat;
+			background-position: center -100px;
+			background-size: 250%;
+			padding: 0 0 4em 0;
+			display: block;
+			position: relative;
+		}
+}
+
+@media (min-width: 501px) {
+	header .hero {
+		 background: #4188B2 url("../images/city-people-woman-street-smaller.jpg") no-repeat;
+		 background-position: center center;
+		 background-size: 140%;
+		 padding: 0 0 4em 0;
+		 display: block;
+		 position: relative;
+	 }
+}
+
+ @media (max-width: 768px) {
+		header .hero h1 {
+	    font-size: 36px;
+	    font-weight: normal;
+	    margin: 100px 0 0;
+	    text-shadow: 0 2px #666666;
+		}
+		.logo-size {
+			width: 150px;
+		}
+
+		header nav ul {
+			display: inline;
+			float: right;
+			margin-top: 10px;
+			padding-left: 0px;
+			padding-bottom: 10px;
+			text-align: right;
+			width: 100%;
+		}
+  }
 
  /* BUTTONS */
  .btn {
@@ -256,6 +312,14 @@ header .hero {
    font-weight: 300;
    text-decoration: none;
    padding:10px 15px;
+ }
+
+/*adjusting even small elements like buttons matters when you are focused on working in a limited space*/
+
+ @media (max-width: 768px) {
+	 	.btn, .btn-outline {
+			padding: 10px 10px;
+		}
  }
 
  /* FEATURES */
