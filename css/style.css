@@ -492,7 +492,7 @@ header .hero {
   background: url("../images/man-person-hands-coffee-smaller.jpg") no-repeat;
   background-size: cover;
   background-position: 0 -175px;
-  height: 35vh;
+  /*height: 35vh;*/
   display: block;
   position: relative;
 }
@@ -548,6 +548,43 @@ margin-right: 10px;
 	border: 2px solid #FF696D;
 	border-radius: 4px;
 	padding: 10px 15px;
+}*/
+
+/* attempting to make commitment image responsive */
+ @media (max-width: 500px) {
+   .commitment {
+      padding: 4em 0;
+      text-align: center;
+      background: url("../images/man-person-hands-coffee-smaller.jpg") no-repeat;
+      background-size: 200%;
+      background-position: -500 -500px;
+      display: block;
+      position: relative;
+    }
+}
+
+@media (min-width: 501px) {
+  .commitment {
+     padding: 4em 0;
+     text-align: center;
+     background: url("../images/man-person-hands-coffee-smaller.jpg") no-repeat;
+     background-position: center center;
+     background-size: 150%;
+     /*background-position: -500 -500px;*/
+     display: block;
+     position: relative;
+   }
+}
+/*@media (max-width: 768px) {
+  .commitment {
+    padding: 4em 0;
+    text-align: center;
+    background: url("../images/man-person-hands-coffee-smaller.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 -175px;
+    display: block;
+    position: relative;
+  }
 }*/
  /* FOOTER */
  footer {
