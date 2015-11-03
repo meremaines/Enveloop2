@@ -183,15 +183,16 @@ nav.full-width {
 nav.top-adjust {
   margin-top: 20px;
 }
+
 header .hero {
-   background: #4188B2 url("../images/city-people-woman-street-smaller.jpg") no-repeat;
-   background-position: -100px -250px;
-   background-size:110%;
-   padding:0 0 4em 0;
-   text-align: left;
-   display:block;
-   position: relative;
+	 background: #4188B2 url("../images/city-people-woman-street-smaller.jpg") no-repeat;
+	 background-position: center center;
+	 background-size: 140%;
+	 padding: 0 0 4em 0;
+	 display: block;
+	 position: relative;
  }
+
  header .hero h1 {
    font-size:48px;
    font-weight: normal;
@@ -223,16 +224,7 @@ header .hero {
 		}
 }
 
-@media (min-width: 501px) {
-	header .hero {
-		 background: #4188B2 url("../images/city-people-woman-street-smaller.jpg") no-repeat;
-		 background-position: center center;
-		 background-size: 140%;
-		 padding: 0 0 4em 0;
-		 display: block;
-		 position: relative;
-	 }
-}
+
 
  @media (max-width: 768px) {
 		header .hero h1 {
@@ -490,8 +482,8 @@ header .hero {
 	padding: 4em 0;
 	text-align: center;
   background: url("../images/man-person-hands-coffee-smaller.jpg") no-repeat;
-  background-size: cover;
-  background-position: 0 -175px;
+  background-size: 150%;
+  background-position: center center;
   /*height: 35vh;*/
   display: block;
   position: relative;
@@ -509,6 +501,56 @@ header .hero {
   background-color: rgba(46, 97, 127 ,0.7);
 }
 
+.commit-right, .commit-left {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+
+.button-contain {
+	width: 60%;
+	margin: 0 auto;
+	padding-left: 0px;
+	z-index: 2;
+	position: relative;
+}
+
+.button-contain {
+	width: 80%;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+.button-contain a, .button-contain a:hover {
+	display: block;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+	.button-contain a, .button-contain a:hover {
+		display: inline-block;
+		padding: 20px;
+		margin-top: 10px;
+	}
+
+	.button-contain {
+		width: 80%;
+		margin: 0 auto;
+		padding-bottom: 50px;
+	}
+}
+
+ul.button-contain li {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #dadada;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
 .ready {
   margin-top: 20px;
 }
@@ -522,12 +564,12 @@ header .hero {
 .commitment ul li > a {
 	text-decoration: none;
 }
-.commitment ul li:nth-child(1) {
+/*.commitment ul li:nth-child(1) {
 margin-right: 10px;
 }
 .commitment ul li:nth-child(2) {
   margin-left: 10px;
-}
+}*/
 .commitment .btn-outline {
   background: #7FA7BF;
 }
@@ -551,7 +593,7 @@ margin-right: 10px;
 }*/
 
 /* attempting to make commitment image responsive */
- @media (max-width: 500px) {
+ /*@media (max-width: 500px) {
    .commitment {
       padding: 4em 0;
       text-align: center;
@@ -574,7 +616,7 @@ margin-right: 10px;
      display: block;
      position: relative;
    }
-}
+}*/
 /*@media (max-width: 768px) {
   .commitment {
     padding: 4em 0;
