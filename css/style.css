@@ -555,13 +555,12 @@ header .hero {
    border: 2px solid #2E617F;
    border-radius: 8px;
    background: #7FA7BF;
-   min-height: 425px;
    position: relative;
    /*margin-top: 25px;*/
-   width:96%;
+   width:30%;
    float:left;
-   min-height: 1px;
-   margin:0 2% 20px;
+   min-height: 300px;
+   margin-top: 25px;
  }
   .box h4 {
    font-family: "Merriweather", serif;
@@ -591,17 +590,15 @@ header .hero {
  }
 
  .box-middle {
-   min-height: 500px;
-   margin-top:0px;
    background: #FFFFFF;
    border: 2px solid #2E617F;
    border-radius: 8px;
    /*margin: 0 -40px;*/
-   width:96%;
+   /*width:96%;*/
    float:left;
    position:relative;
-   min-height: 1px;
-   margin:0 2% 20px;
+   min-height: 350px;
+   min-width: 40%;
  }
  .box-middle h4 {
   color: #666666;
@@ -628,11 +625,12 @@ header .hero {
  .box-middle h5 span.month {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  font-size: 20px;
   vertical-align: middle;
  }
  .box-middle p {
   color: #666666;
-  font-size: 20px;
+  font-size: 14px;
  }
  .box-middle .btn {
    position:absolute;
@@ -645,6 +643,10 @@ header .hero {
    bottom:20px;
    left:20px;
    right:20px;
+ }
+/* .box-right {
+  float: right;
+ }*/
 }
 
 /* TESTIMONIALS */
@@ -817,7 +819,7 @@ margin-right: 10px;
      display: block;
      position: relative;
    }
-}*/
+}
 /*@media (max-width: 768px) {
   .commitment {
     padding: 4em 0;
