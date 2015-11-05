@@ -774,6 +774,9 @@ margin-right: 10px;
 .commitment .btn-outline:hover {
   background: #2E617F;
 }
+.commitment .btn {
+  background: #
+}
 /*.commitment ul li.btn-outline > a {
 	color: #2E617F;
 }
@@ -849,6 +852,9 @@ margin-right: 10px;
  footer nav ul li a {
    color:#FFFFFF;
    text-decoration: none;
+ }
+ footer p {
+  color: #FFFFFF;
  }
  footer .right-footer-block {
    background-color: transparent;
