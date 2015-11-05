@@ -700,7 +700,13 @@ header .hero {
   z-index:0;
   background-color: rgba(46, 97, 127 ,0.7);
 }
-
+/* trying to adjust commitment bkgrnd image for max-500 */
+@media (max-width: 500px) {
+  .commitment {
+    background-size: 250%;
+    background-position: center -225px;
+  }
+}
 .commit-right, .commit-left {
 	width: 100%;
 	float: left;
@@ -775,9 +781,6 @@ margin-right: 10px;
 }
 .commitment .btn-outline:hover {
   background: #2E617F;
-}
-.commitment .btn {
-  background: #
 }
 /*.commitment ul li.btn-outline > a {
 	color: #2E617F;
