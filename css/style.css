@@ -549,7 +549,7 @@ header .hero {
    right:50px;
  }
  /* media query for tablet size pricing section */
-@media (min-width: 501px) {
+@media (min-width: 700px) {
   .box {
    /*padding:0 15px 15px;
    border: 2px solid #2E617F;*/
