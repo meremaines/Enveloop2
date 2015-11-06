@@ -551,16 +551,21 @@ header .hero {
  /* media query for tablet size pricing section */
 @media (min-width: 501px) {
   .box {
-   padding:0 15px 15px;
-   border: 2px solid #2E617F;
-   border-radius: 8px;
+   /*padding:0 15px 15px;
+   border: 2px solid #2E617F;*/
+   border-radius: 4px;
    background: #7FA7BF;
    position: relative;
    /*margin-top: 25px;*/
    width:30%;
    float:left;
    min-height: 300px;
-   margin-top: 25px;
+ }
+ .box-left {
+  margin: 25px 1% 0 3%;
+ }
+ .box-right {
+  margin: 25px 3% 0 1%;
  }
   .box h4 {
    font-family: "Merriweather", serif;
@@ -570,8 +575,8 @@ header .hero {
    right:0;
    top:0;
    text-align: center;
-   margin:0 -15px 40px;
-   padding:20px 0;
+   /*margin:0 -15px 40px;
+   padding:20px 0;*/
  }
  .box h5 {
   font-size: 24px;
@@ -591,14 +596,15 @@ header .hero {
 
  .box-middle {
    background: #FFFFFF;
-   border: 2px solid #2E617F;
-   border-radius: 8px;
+   /*border: 2px solid #2E617F;*/
+   border-radius: 4px;
    /*margin: 0 -40px;*/
    /*width:96%;*/
    float:left;
    position:relative;
    min-height: 350px;
-   min-width: 40%;
+   width: 30%;
+   margin: 0 1% 0 1%;
  }
  .box-middle h4 {
   color: #666666;
@@ -609,8 +615,8 @@ header .hero {
   right: 0;
   top: 0;
   text-align: center;
-  margin:0 0 40px;
-  padding: 20px 0;
+  /*margin:0 0 40px;
+  padding: 20px 0;*/
  }
  .box-middle h5 {
   color: #666666;
