@@ -817,7 +817,7 @@ margin-right: 10px;
    z-index: 0;
  }
  footer .footer-nav-block {
-  padding-top: 1em;
+  padding-top: 2em;
  }
  footer p, footer nav ul {
    font-size:14px;
@@ -854,15 +854,22 @@ margin-right: 10px;
      background-color: #4188B2;
      height: 100px;
    }
+   footer .footer-nav-block {
+    padding-top: 0;
+   }
    footer p, footer nav ul{
      padding: 2em 0;
      text-align: left;
+   }
+   footer nav ul {
+    text-align: center;
    }
    footer .right-footer-block {
      background-color: #4188B2;
    }
    footer .logo{
      float: right;
+     padding: 2em 0;
    }
  }
  /* DASHBOARD */
