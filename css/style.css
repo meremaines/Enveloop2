@@ -684,6 +684,19 @@ header .hero {
  .testimonials img {
  	padding: 1em 0;
  }
+ /* media query for testimonials tablet size */
+
+ @media (min-width: 700px) {
+  .testimonials ul {
+    width: 96%;
+  }
+  .testimonials ul li {
+    width: 29.3333%;
+    float:left;
+    position:relative;
+    margin:0 2%;
+  }
+ }
 
 /* COMMITMENT */
 .commitment {
