@@ -330,7 +330,7 @@ header .hero {
  }
  .features ul {
  	margin: 0 auto;
- 	padding: 4em 0;
+ 	padding: 4em 3em;
  }
  .features ul li {
  	list-style-type: none;
@@ -345,7 +345,10 @@ header .hero {
 
  /* attempting media query for 500-992px width */
 
- @media (min-width: 500px) {
+ @media (min-width: 501px) {
+  .features ul {
+    padding: 4em 0;
+  }
   .features .one-fourth {
     width: 46%;
     float: left;
@@ -359,6 +362,9 @@ header .hero {
   }
  }
  @media (min-width: 992px) {
+  .features ul {
+    padding: 4em 0;
+  }
   .features .one-fourth {
     width: 21%;
     margin:0 2% 20px;
