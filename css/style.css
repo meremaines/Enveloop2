@@ -343,6 +343,28 @@ header .hero {
  	vertical-align: middle;
  }
 
+ /* attempting media query for 500-992px width */
+
+ @media (min-width: 500px) {
+  .features .one-fourth {
+    width: 46%;
+    float: left;
+    position: relative;
+  }
+  .features .left-feature {
+    margin: 0 1% 20px 3%;
+  }
+  .features .right-feature {
+    margin: 0 3% 20px 1%;
+  }
+ }
+ @media (min-width: 992px) {
+  .features .one-fourth {
+    width: 21%;
+    margin:0 2% 20px;
+  }
+ }
+
  /* PRICING */
 /* .box {
    padding:0 15px 15px;
