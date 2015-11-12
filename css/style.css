@@ -373,95 +373,6 @@ header .hero {
  }
 
  /* PRICING */
-/* .box {
-   padding:0 15px 15px;
-   border: 2px solid #2E617F;
-   border-radius: 8px;
-   background: #7FA7BF;
-   min-height: 425px;
-   position: relative;
-   margin-top: 25px;
- }
-  .box h4 {
-   font-family: "Merriweather", serif;
-   font-weight: 300;
-   background: #4188B2;
-   left:0;
-   right:0;
-   top:0;
-   text-align: center;
-   margin:0 -15px 40px;
-   padding:20px 0;
- }
- .box h5 {
- 	font-size: 24px;
- }
- .box h5 span {
- 	font-family: "Roboto", Helvetica, Arial, sans-serif;
- 	font-weight: 300;
- 	font-size: 20px;
- 	vertical-align: top;
- }
- .box h5 span.month {
- 	font-family: "Roboto", Helvetica, Arial, sans-serif;
- 	font-weight: 300;
- 	font-size: 20px;
- 	vertical-align: middle;
- }
-
- .box-middle {
-   min-height: 500px;
-   margin-top:0px;
-   background: #FFFFFF;
-   border: 2px solid #2E617F;
-   border-radius: 8px;
-   margin: 0 -40px;
- }
- .box-middle h4 {
- 	color: #666666;
- 	font-weight: 400;
- 	font-size: 20px;
- 	background: #D8D8D8;
- 	left: 0;
- 	right: 0;
- 	top: 0;
- 	text-align: center;
- 	margin:0 0 40px;
- 	padding: 20px 0;
- }
- .box-middle h5 {
- 	color: #666666;
- 	font-size: 30px;
- }
- .box-middle h5 span {
- 	font-family: "Roboto", Helvetica, Arial, sans-serif;
- 	font-weight: 300;
- 	font-size: 20px;
- 	vertical-align: top;
- }
- .box-middle h5 span.month {
- 	font-family: "Roboto", Helvetica, Arial, sans-serif;
- 	font-weight: 300;
- 	vertical-align: middle;
- }
- .box-middle p {
- 	color: #666666;
- 	font-size: 20px;
- }
- .box-middle .btn {
-   position:absolute;
-   bottom:20px;
-   left:10px;
-   right:10px;
- }
- .box .btn-outline {
-   position:absolute;
-   bottom:20px;
-   left:20px;
-   right:20px;
- }*/
-
-
 .pricing {
   background-color: #2E617F;
   text-align: center;
@@ -931,15 +842,18 @@ margin-right: 10px;
   background-color: #4188B2;
   margin: 0 1% 20px;
  }
- .top-nav .one-third {
-  margin-right: auto;
-  margin-left: auto;
+ .top-nav .settings, .top-nav .logo, .top-nav .right-header-bar {
   padding-left: 15px;
   padding-right: 15px;
+  float:left;
+  width: 29.3333%;
+  position:relative;
+  min-height: 1px;
+  margin:0 2% 20px;
  }
  .top-nav .settings {
   float: left;
-  margin: 0 0 0 15px;
+  /*margin: 0 0 0 15px;*/
   display: inline;
  }
  .top-nav .settings img {
@@ -956,14 +870,14 @@ margin-right: 10px;
   margin-right: 33.33333%;*/
  }
  .top-nav .right-header-bar {
-  display: block;
+  display: inline;
   float: right;
   margin-top: 12px;
  }
  .top-nav ul {
-  display: inline;
+  display: block;
   text-align: right;
-  float: right;
+  float: left;
   margin: 0;
  }
  .top-nav ul > li {
@@ -1033,6 +947,19 @@ margin-right: 10px;
  /*.sub-nav li.active > a {
   background: #2E617F;
  }*/
+
+ @media (max-width: 500px) {
+  .top-nav .logo {
+    display: none;
+  }
+  .top-nav .settings, .top-nav .right-header-bar {
+    /*float:left;*/
+    position:relative;
+    margin-bottom: 1em;
+    /*min-height: 1px;
+    margin:0 2% 20px;*/
+  }
+ }
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
