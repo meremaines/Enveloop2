@@ -877,7 +877,7 @@ margin-right: 10px;
  .top-nav ul {
   display: block;
   text-align: right;
-  float: left;
+  float: right;
   margin: 0;
  }
  .top-nav ul > li {
@@ -948,18 +948,56 @@ margin-right: 10px;
   background: #2E617F;
  }*/
 
+/* making top nav mobile-friendly */
  @media (max-width: 500px) {
   .top-nav .logo {
     display: none;
   }
   .top-nav .settings, .top-nav .right-header-bar {
     /*float:left;*/
+    display: inline;
+    width: 46%;
     position:relative;
     margin-bottom: 1em;
-    /*min-height: 1px;
-    margin:0 2% 20px;*/
+    min-height: 1px;
+    margin:0 2% 20px;
   }
+  .sub-nav {
+    padding: 1em 0;
+    height: auto;
+    width: 100%;
+    background-color: #7FA7BF;
+    display: none;
  }
+  .sub-nav > ul {
+    display: block;
+    text-align: center;
+ }
+  .sub-nav ul li {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    margin: 10px auto;
+ }
+
+ .sub-nav .sub-search > p {
+   width: 96%;
+   border: 1px solid #666666;
+   border-radius: 4px;
+   background: #FFFFFF;
+   display: block;
+   text-align: right;
+   padding: 15px;
+   margin: 0 15px;
+ }
+ .sub-nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+ }
+}
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
