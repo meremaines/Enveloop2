@@ -406,7 +406,7 @@ header .hero {
    /*min-height: 425px;*/
    position: relative;
    /*margin-top: 25px;*/
-}  
+}
 .box-right {
   min-height: 300px;
 }
@@ -843,8 +843,9 @@ margin-right: 10px;
   margin: 0 1% 20px;
  }
  .top-nav .settings, .top-nav .logo, .top-nav .right-header-bar {
-  padding-left: 15px;
-  padding-right: 15px;
+	/* killed the padding and the navbar magically started acting normal.  */
+  /*padding-left: 15px;
+  padding-right: 15px;*/
   float:left;
   width: 29.3333%;
   position:relative;
