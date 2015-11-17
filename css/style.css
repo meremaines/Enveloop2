@@ -882,9 +882,9 @@ margin-right: 10px;
   margin: 0;
  }
  .top-nav ul > li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0 15px;
+	 list-style-type: none;
+	 display: inline-block;
+	 margin: 10px 0 0 10px;
  }
  .top-nav ul > li > a {
   text-decoration: none;
@@ -949,6 +949,15 @@ margin-right: 10px;
   background: #2E617F;
  }*/
 
+ @media (min-width: 700px) {
+
+	 .top-nav ul > li {
+	 	list-style-type: none;
+	 	display: inline-block;
+	 	margin: 0px 0 0 10px;
+	 }
+ }
+
 /* making top nav mobile-friendly */
  @media (max-width: 500px) {
   .top-nav .logo {
@@ -957,12 +966,17 @@ margin-right: 10px;
   .top-nav .settings, .top-nav .right-header-bar {
     /*float:left;*/
     display: inline;
-    width: 46%;
+    width: 20%;
     position:relative;
     margin-bottom: 1em;
     min-height: 1px;
     margin:0 2% 20px;
   }
+
+	.top-nav .right-header-bar {
+		width: 70%;
+	}
+
   .sub-nav {
     padding: 1em 0;
     height: auto;
