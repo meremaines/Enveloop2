@@ -959,9 +959,12 @@ margin-right: 10px;
  }
 
 /* making top nav mobile-friendly */
- @media (max-width: 500px) {
+ @media (max-width: 640px) {
   .top-nav .logo {
     display: none;
+  }
+  .content .content-view {
+  	display: none;
   }
   .top-nav .settings, .top-nav .right-header-bar {
     /*float:left;*/
@@ -972,11 +975,9 @@ margin-right: 10px;
     min-height: 1px;
     margin:0 2% 20px;
   }
-
-	.top-nav .right-header-bar {
-		width: 70%;
-	}
-
+  .top-nav .right-header-bar {
+	width: 70%;
+  }
   .sub-nav {
     padding: 1em 0;
     height: auto;
@@ -989,12 +990,23 @@ margin-right: 10px;
     text-align: center;
  }
   .sub-nav ul li {
-    list-style-type: none;
+    text-align: center;
     display: block;
     padding: 0;
     margin: 10px auto;
  }
-
+ .sub-nav .sub-settings > ul {
+ 	float: none;
+ }
+ .sub-nav .sub-search > ul {
+ 	float: none;
+ }
+ .sub-nav .sub-view > ul {
+	float: none;
+ }
+ .sub-nav .sub-new > ul {
+ 	float: none;
+ }
  .sub-nav .sub-search > p {
    width: 96%;
    border: 1px solid #666666;
