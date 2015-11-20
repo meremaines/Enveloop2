@@ -105,7 +105,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="content-item"> <!-- content item 1 -->
+			<div class="content-item" id="content-item1"> <!-- content item 1 -->
 				<div class="content-hover-bar">
 					<div class="contributors">
 						<a href="#"><p>6</p></a>
@@ -118,9 +118,11 @@
 						<li><a href="#"><i class="fa fa-trash"></i></a></li>
 					</ul>
 				</div>
-					<div class="item-box">
-						<!-- <img src="http://41.media.tumblr.com/90ef0b4692e0ba4df321674c3572e5ba/tumblr_ndyve8fmFa1tubinno1_r1_1280.jpg"> -->
-					</div>
+				<div class="item-box">
+					<a href="#1">
+					<img src="http://41.media.tumblr.com/90ef0b4692e0ba4df321674c3572e5ba/tumblr_ndyve8fmFa1tubinno1_r1_1280.jpg">
+					</a>
+				</div>
 			</div>
 			<div class="content-item"> <!-- content item 2 -->
 					<div class="item-box link">
@@ -203,6 +205,10 @@
 		$(".sort").dropit();
 	</script>
 	<script>
+		$(".content-item").hover(function(){
+			$(".content-hover-bar").toggle();
+		});
+
 		$(".setbutton").on("click", function(){
 			$("#sub-nav-search").hide();
 			$("#sub-nav-view").hide();
