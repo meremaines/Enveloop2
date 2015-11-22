@@ -924,7 +924,7 @@ margin-right: 10px;
   display: inline;
   text-align: right;
   float: right;
-  padding: 0 11% 0 0;
+  padding: 0 2% 0 0;
   /*margin-right: 1%;*/
  }
  .sub-nav .sub-new > ul {
@@ -943,7 +943,7 @@ margin-right: 10px;
   float: right;
   text-align: right;
   padding: 15px;
-  margin: 0 30px 0 15px;
+  margin: 0 3% 0 0;
  }
  .sub-nav ul li a {
   text-decoration: none;
@@ -964,23 +964,20 @@ margin-right: 10px;
 	 }
  }
  @media (min-width: 768px) {
- 	.sub-nav .sub-view > ul {
- 		padding: 0 11% 0 0;
+/* 	.sub-nav .sub-view > ul {
+ 		padding: 0 2% 0 0;
  	}
  	.sub-nav .sub-search > p {
  		margin: 0 20% 0 0;
- 	}
+ 	}*/
  }
  @media (min-width: 992px) {
- 	.sub-nav .sub-view > ul {
- 		padding: 0 9.5% 0 0;
- 	}
- 	.sub-nav .sub-new > ul {
+/* 	.sub-nav .sub-new > ul {
  		padding: 10px .5%;
- 	}
- 	.sub-nav .sub-search > p {
+ 	}*/
+/* 	.sub-nav .sub-search > p {
  		margin: 0 18% 0 0;
- 	}
+ 	}*/
  	.sub-nav .sub-set > ul {
  		padding: 10px 0 10px .5%;
  	}
@@ -1012,6 +1009,8 @@ margin-right: 10px;
     width: 100%;
     background-color: #7FA7BF;
     display: none;
+    position: relative;
+    z-index: 3;
  }
   .sub-nav > ul {
     display: block;
@@ -1020,8 +1019,15 @@ margin-right: 10px;
   .sub-nav ul li {
     text-align: center;
     display: block;
-    padding: 0;
+    padding: 0 0 10px 0;
     margin: 10px auto;
+    border-bottom: 1px solid #4188B2;
+ }
+/* .sub-nav .sub-settings ul li {
+  
+ }*/
+ .sub-nav ul li.last-element {
+  border-bottom: none;
  }
  .sub-nav .sub-settings > ul {
  	float: none;
