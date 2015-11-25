@@ -22,6 +22,7 @@
 	<nav id="top-nav" class="top-nav">
 		<div class="settings">
 			<a href="#" class="setbutton"><img src="images/MeredithProfile.png"></a>
+			<div class="top-nav-arrow-settings"></div>
 		</div>
 		<div class="logo">
 			<a href="dashboard.html" class="site-logo logobutton"><img src="images/Logo.png"></a>
@@ -32,6 +33,9 @@
 				<li><a href="#" class="btn-outline viewbutton">VIEW</a></li>
 				<li><a href="#" class="btn newbutton">NEW</a></li>
 			</ul>
+			<div class="top-nav-arrow-search"></div>
+			<div class="top-nav-arrow-view"></div>
+			<div class="top-nav-arrow-new"></div>
 		</div>
 	</nav>
 	<nav id="sub-nav-set" class="sub-nav">
@@ -217,29 +221,49 @@
 			$(".content-hover-bar").toggle();
 		});
 
+		// $(".setbutton").hover(function(){
+		// 	$(".top-nav-arrow-settings").toggle();
+		// });
+
 		$(".setbutton").on("click", function(){
 			$("#sub-nav-search").hide();
 			$("#sub-nav-view").hide();
 			$("#sub-nav-new").hide();
 			$("#sub-nav-set").toggle();
+			$(".top-nav-arrow-settings").toggle();
+			$(".top-nav-arrow-search").hide();
+			$(".top-nav-arrow-view").hide();
+			$(".top-nav-arrow-new").hide();
 		});
 		$(".searchbutton").on("click", function(){
 			$("#sub-nav-view").hide();
 			$("#sub-nav-new").hide();
 			$("#sub-nav-set").hide();
 			$("#sub-nav-search").toggle();
+			$(".top-nav-arrow-search").toggle();
+			$(".top-nav-arrow-settings").hide();
+			$(".top-nav-arrow-view").hide();
+			$(".top-nav-arrow-new").hide();
 		});
 		$(".viewbutton").on("click", function(){
 			$("#sub-nav-search").hide();
 			$("#sub-nav-new").hide();
 			$("#sub-nav-set").hide();
 			$("#sub-nav-view").toggle();
+			$(".top-nav-arrow-view").toggle();
+			$(".top-nav-arrow-search").hide();
+			$(".top-nav-arrow-settings").hide();
+			$(".top-nav-arrow-new").hide();
 		});
 		$(".newbutton").on("click", function(){
 			$("#sub-nav-search").hide();
 			$("#sub-nav-view").hide();
 			$("#sub-nav-set").hide();
 			$("#sub-nav-new").toggle();
+			$(".top-nav-arrow-new").toggle();
+			$(".top-nav-arrow-search").hide();
+			$(".top-nav-arrow-view").hide();
+			$(".top-nav-arrow-settings").hide();
 		});
 	</script>
 </body>

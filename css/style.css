@@ -867,6 +867,35 @@ margin-right: 10px;
   border-radius: 50%;
   display: inline-block;
  }
+ .top-nav-arrow-settings, .top-nav-arrow-search, .top-nav-arrow-view, .top-nav-arrow-new {
+  /*display: none;*/
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #7FA7BF;
+  position: absolute;
+ }
+ .top-nav-arrow-settings {
+  display: none;
+  margin-left: 2.7%;
+  top: 56px;
+ }
+ .top-nav-arrow-search {
+  display: none;
+  margin-left: 53%;
+  top: 44px;
+ }
+ .top-nav-arrow-view {
+  display: none;
+  margin-left: 67.5%;
+  top: 44px;
+ }
+ .top-nav-arrow-new {
+  display: none;
+  margin-left: 89%;
+  top: 44px;
+ }
  .top-nav .logo {
   display: block;
   text-align: center;
@@ -898,6 +927,10 @@ margin-right: 10px;
   color: #FFFFFF;
   height: 24px;
  }
+ .searchbutton:hover{
+  color: #7FA7BF;
+ }
+
 /* sub-nav*/
  .sub-nav {
   padding: 1em 0;
@@ -912,6 +945,9 @@ margin-right: 10px;
   display: inline-block;
   padding: 0 15px;
   /*margin: 0 15px;*/
+ }
+ .sub-nav ul li a:hover {
+  color: #4188B2;
  }
  .sub-nav .sub-settings > ul {
   display: inline;
