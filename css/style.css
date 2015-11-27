@@ -1247,6 +1247,14 @@ margin-right: 10px;
  	text-decoration: none;
  	display: inline;
  }
+ .media-body {
+  background: rgba(0, 0, 0, 0.0);
+  overflow: hidden;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+ }
  @media (max-width: 499px) {
   .content-hover-bar ul li {
     margin-left: 10px;
